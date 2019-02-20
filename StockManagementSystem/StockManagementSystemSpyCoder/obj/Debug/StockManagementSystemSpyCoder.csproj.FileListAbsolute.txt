@@ -1,0 +1,65 @@
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe.config
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.pdb
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csprojResolveAssemblyReference.cache
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CategorySetupForm.resources
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.Properties.Resources.resources
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csproj.GenerateResource.Cache
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.exe
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.pdb
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CompanySetupUi.resources
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.HomeUi.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe.config
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.exe
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.pdb
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.pdb
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csprojResolveAssemblyReference.cache
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CategorySetupForm.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CompanySetupUi.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.HomeUi.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.ItemSetup.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.Properties.Resources.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.SalesBetweenTwoData.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.SearchAndView.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.StockIn.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.StockOut.resources
+G:\vs project\Project work\Dot-Net-First-Project-master (1)\Dot-Net-First-Project-master\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csproj.GenerateResource.Cache
+G:\vs project\Project work\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe.config
+G:\vs project\Project work\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.exe
+G:\vs project\Project work\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.pdb
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe.config
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.exe
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.pdb
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.pdb
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csprojResolveAssemblyReference.cache
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CategorySetupForm.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CompanySetupUi.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.HomeUi.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.ItemSetup.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.Properties.Resources.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.SalesBetweenTwoData.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.SearchAndView.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.StockIn.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.StockOut.resources
+C:\Users\Shimu\Downloads\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csproj.GenerateResource.Cache
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe.config
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.exe
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.pdb
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.pdb
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CompanySetupUi.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.HomeUi.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.ItemSetup.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.Properties.Resources.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.SalesBetweenTwoData.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.SearchAndView.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.StockIn.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.StockOut.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csproj.GenerateResource.Cache
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CategorySetupUi.resources
+D:\DotNet\Stock Management System-20190219T160513Z-001\Stock Management System\StockManagementSystem\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.csprojResolveAssemblyReference.cache
+D:\DotNet\New folder\StockManagementSystem\StockManagementSystemSpyCoder\bin\Debug\StockManagementSystemSpyCoder.exe.config
+D:\DotNet\New folder\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.exe
+D:\DotNet\New folder\StockManagementSystem\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.pdb
