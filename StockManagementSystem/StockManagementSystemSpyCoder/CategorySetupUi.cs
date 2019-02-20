@@ -39,10 +39,10 @@ namespace StockManagementSystemSpyCoder
                 MessageBox.Show("Not Saved");
             }
 
-            DataTable dataTable = Show();
+            DataTable dataTable = ShowCat();
             categoriesGridView.DataSource = dataTable;
         }
-        private DataTable Show()
+        private DataTable ShowCat()
         {
             DataTable dataTable = new DataTable();
             try
@@ -89,18 +89,17 @@ namespace StockManagementSystemSpyCoder
                 int isExecuted = sqlCommand.ExecuteNonQuery();
                 if (isExecuted > 0)
                 {
-                    //MessageBox.Show("Saved");
+                    
                     isSucces = true;
                 }
                 else
                 {
-                    //MessageBox.Show("Not Saved");
+                   
                     isSucces = false;
                 }
 
                 //8
                 sqlConnection.Close();
-
 
             }
             catch (Exception exception)

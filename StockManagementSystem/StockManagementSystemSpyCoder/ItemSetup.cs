@@ -15,7 +15,7 @@ namespace StockManagementSystemSpyCoder
     public partial class ItemSetup : UserControl
     {
         Item item = new Item();
-        string connectionString = @"Server =DESKTOP-O4TBSCE\SQLEXPRESS; Database = StockManagementSystem; Integrated Security = true ";
+        string connectionString = @"Server =DESKTOP-O4TBSCE\SQLEXPRESS; Database =StockManagementSystem; Integrated Security = true ";
         private SqlConnection sqlConnection;
 
         public ItemSetup()
@@ -53,6 +53,7 @@ namespace StockManagementSystemSpyCoder
                 //3
                 sqlConnection = new SqlConnection(connectionString);
                 //4
+                
                 string query = @"INSERT INTO Items (Name, CategoryId, CompanyId, ReorderLevel) VALUES ('" + item.Name + "'," + item.CategoryId + "," + item.CompanyId + ",'" + item.ReorderLevel + "')";
                 //5
                 SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
@@ -62,12 +63,10 @@ namespace StockManagementSystemSpyCoder
                 int isExecuted = sqlCommand.ExecuteNonQuery();
                 if (isExecuted > 0)
                 {
-                    //MessageBox.Show("Saved");
                     issaved = true;
                 }
                 else
                 {
-                    //MessageBox.Show("Not Saved");
                     issaved = false;
                 }
                 //8

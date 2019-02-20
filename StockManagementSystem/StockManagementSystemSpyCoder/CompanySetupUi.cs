@@ -26,7 +26,7 @@ namespace StockManagementSystemSpyCoder
         private void CompanySetupSaveButton_Click(object sender, EventArgs e)
         {
             companie.Name = companySetupNameTextBox.Text;
-
+            
             bool isSave = Add(companie);
 
             if (isSave)
@@ -38,10 +38,10 @@ namespace StockManagementSystemSpyCoder
                 MessageBox.Show("Not Saved");
             }
 
-            DataTable dataTable = Show();
+            DataTable dataTable = ShowCom();
             companyDataGridView.DataSource = dataTable;
         }
-        private DataTable Show()
+        private DataTable ShowCom()
         {
             DataTable dataTable = new DataTable();
             try

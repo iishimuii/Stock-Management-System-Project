@@ -37,22 +37,22 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.categoryComboBox = new System.Windows.Forms.ComboBox();
-            this.companyComboBox = new System.Windows.Forms.ComboBox();
-            this.stockManagementSystemDataSet = new StockManagementSystemSpyCoder.StockManagementSystemDataSet();
             this.categoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.categoriesTableAdapter = new StockManagementSystemSpyCoder.StockManagementSystemDataSetTableAdapters.CategoriesTableAdapter();
-            this.stockManagementSystemDataSet1 = new StockManagementSystemSpyCoder.StockManagementSystemDataSet1();
+            this.stockManagementSystemDataSet = new StockManagementSystemSpyCoder.StockManagementSystemDataSet();
+            this.companyComboBox = new System.Windows.Forms.ComboBox();
             this.companiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.stockManagementSystemDataSet1 = new StockManagementSystemSpyCoder.StockManagementSystemDataSet1();
+            this.categoriesTableAdapter = new StockManagementSystemSpyCoder.StockManagementSystemDataSetTableAdapters.CategoriesTableAdapter();
             this.companiesTableAdapter = new StockManagementSystemSpyCoder.StockManagementSystemDataSet1TableAdapters.CompaniesTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.companiesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // reorderLevelTextBox
             // 
-            this.reorderLevelTextBox.Location = new System.Drawing.Point(213, 206);
+            this.reorderLevelTextBox.Location = new System.Drawing.Point(294, 219);
             this.reorderLevelTextBox.Name = "reorderLevelTextBox";
             this.reorderLevelTextBox.Size = new System.Drawing.Size(186, 20);
             this.reorderLevelTextBox.TabIndex = 12;
@@ -62,7 +62,7 @@
             this.ItemSetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
             this.ItemSetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ItemSetupSaveButton.ForeColor = System.Drawing.Color.White;
-            this.ItemSetupSaveButton.Location = new System.Drawing.Point(309, 275);
+            this.ItemSetupSaveButton.Location = new System.Drawing.Point(390, 288);
             this.ItemSetupSaveButton.Name = "ItemSetupSaveButton";
             this.ItemSetupSaveButton.Size = new System.Drawing.Size(90, 31);
             this.ItemSetupSaveButton.TabIndex = 11;
@@ -74,7 +74,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(92, 206);
+            this.label1.Location = new System.Drawing.Point(173, 219);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 15);
             this.label1.TabIndex = 10;
@@ -84,7 +84,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(92, 155);
+            this.label2.Location = new System.Drawing.Point(173, 168);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 15);
             this.label2.TabIndex = 10;
@@ -92,7 +92,7 @@
             // 
             // itemNameTextBox
             // 
-            this.itemNameTextBox.Location = new System.Drawing.Point(213, 155);
+            this.itemNameTextBox.Location = new System.Drawing.Point(294, 168);
             this.itemNameTextBox.Name = "itemNameTextBox";
             this.itemNameTextBox.Size = new System.Drawing.Size(186, 20);
             this.itemNameTextBox.TabIndex = 12;
@@ -101,7 +101,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(92, 115);
+            this.label3.Location = new System.Drawing.Point(173, 128);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 15);
             this.label3.TabIndex = 10;
@@ -111,7 +111,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(92, 68);
+            this.label4.Location = new System.Drawing.Point(173, 81);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 15);
             this.label4.TabIndex = 10;
@@ -122,46 +122,46 @@
             this.categoryComboBox.DataSource = this.categoriesBindingSource;
             this.categoryComboBox.DisplayMember = "Name";
             this.categoryComboBox.FormattingEnabled = true;
-            this.categoryComboBox.Location = new System.Drawing.Point(213, 68);
+            this.categoryComboBox.Location = new System.Drawing.Point(294, 81);
             this.categoryComboBox.Name = "categoryComboBox";
             this.categoryComboBox.Size = new System.Drawing.Size(186, 21);
             this.categoryComboBox.TabIndex = 13;
             this.categoryComboBox.ValueMember = "Id";
-            // 
-            // companyComboBox
-            // 
-            this.companyComboBox.DataSource = this.companiesBindingSource;
-            this.companyComboBox.DisplayMember = "Name";
-            this.companyComboBox.FormattingEnabled = true;
-            this.companyComboBox.Location = new System.Drawing.Point(213, 112);
-            this.companyComboBox.Name = "companyComboBox";
-            this.companyComboBox.Size = new System.Drawing.Size(186, 21);
-            this.companyComboBox.TabIndex = 14;
-            this.companyComboBox.ValueMember = "Id";
-            // 
-            // stockManagementSystemDataSet
-            // 
-            this.stockManagementSystemDataSet.DataSetName = "StockManagementSystemDataSet";
-            this.stockManagementSystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // categoriesBindingSource
             // 
             this.categoriesBindingSource.DataMember = "Categories";
             this.categoriesBindingSource.DataSource = this.stockManagementSystemDataSet;
             // 
-            // categoriesTableAdapter
+            // stockManagementSystemDataSet
             // 
-            this.categoriesTableAdapter.ClearBeforeFill = true;
+            this.stockManagementSystemDataSet.DataSetName = "StockManagementSystemDataSet";
+            this.stockManagementSystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // companyComboBox
+            // 
+            this.companyComboBox.DataSource = this.companiesBindingSource;
+            this.companyComboBox.DisplayMember = "Name";
+            this.companyComboBox.FormattingEnabled = true;
+            this.companyComboBox.Location = new System.Drawing.Point(294, 125);
+            this.companyComboBox.Name = "companyComboBox";
+            this.companyComboBox.Size = new System.Drawing.Size(186, 21);
+            this.companyComboBox.TabIndex = 14;
+            this.companyComboBox.ValueMember = "Id";
+            // 
+            // companiesBindingSource
+            // 
+            this.companiesBindingSource.DataMember = "Companies";
+            this.companiesBindingSource.DataSource = this.stockManagementSystemDataSet1;
             // 
             // stockManagementSystemDataSet1
             // 
             this.stockManagementSystemDataSet1.DataSetName = "StockManagementSystemDataSet1";
             this.stockManagementSystemDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // companiesBindingSource
+            // categoriesTableAdapter
             // 
-            this.companiesBindingSource.DataMember = "Companies";
-            this.companiesBindingSource.DataSource = this.stockManagementSystemDataSet1;
+            this.categoriesTableAdapter.ClearBeforeFill = true;
             // 
             // companiesTableAdapter
             // 
@@ -182,10 +182,10 @@
             this.Controls.Add(this.label1);
             this.Name = "ItemSetup";
             this.Size = new System.Drawing.Size(502, 419);
-            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.companiesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

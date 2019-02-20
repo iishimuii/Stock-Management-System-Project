@@ -38,14 +38,14 @@
             // companyDataGridView
             // 
             this.companyDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.companyDataGridView.Location = new System.Drawing.Point(243, 184);
+            this.companyDataGridView.Location = new System.Drawing.Point(274, 200);
             this.companyDataGridView.Name = "companyDataGridView";
-            this.companyDataGridView.Size = new System.Drawing.Size(247, 140);
+            this.companyDataGridView.Size = new System.Drawing.Size(239, 148);
             this.companyDataGridView.TabIndex = 32;
             // 
             // companySetupNameTextBox
             // 
-            this.companySetupNameTextBox.Location = new System.Drawing.Point(212, 67);
+            this.companySetupNameTextBox.Location = new System.Drawing.Point(235, 83);
             this.companySetupNameTextBox.Name = "companySetupNameTextBox";
             this.companySetupNameTextBox.Size = new System.Drawing.Size(278, 20);
             this.companySetupNameTextBox.TabIndex = 31;
@@ -55,7 +55,7 @@
             this.CompanySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
             this.CompanySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CompanySetupSaveButton.ForeColor = System.Drawing.Color.White;
-            this.CompanySetupSaveButton.Location = new System.Drawing.Point(395, 115);
+            this.CompanySetupSaveButton.Location = new System.Drawing.Point(418, 131);
             this.CompanySetupSaveButton.Name = "CompanySetupSaveButton";
             this.CompanySetupSaveButton.Size = new System.Drawing.Size(95, 29);
             this.CompanySetupSaveButton.TabIndex = 30;
@@ -67,7 +67,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(66, 67);
+            this.label1.Location = new System.Drawing.Point(89, 83);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 29;
