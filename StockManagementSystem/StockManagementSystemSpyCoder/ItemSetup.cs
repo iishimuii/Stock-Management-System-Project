@@ -26,8 +26,8 @@ namespace StockManagementSystemSpyCoder
         private void ItemSetupSaveButton_Click(object sender, EventArgs e)
         {
             item.Name = itemNameTextBox.Text;
-            item.CategoryId = Convert.ToInt32(categoryComboBox.SelectedValue);
-            item.CompanyId = Convert.ToInt32(companyComboBox.SelectedValue);
+            item.CategoryId = Convert.ToInt32(categoryItemComboBox.SelectedValue);
+            item.CompanyId = Convert.ToInt32(companyItemComboBox.SelectedValue);
             item.ReorderLevel = Convert.ToInt32(reorderLevelTextBox.Text);
 
             bool isExecute = save(item);
@@ -40,7 +40,7 @@ namespace StockManagementSystemSpyCoder
                 MessageBox.Show("Not saved");
             }
 
-            companyComboBox.Text = "";
+            companyItemComboBox.Text = "";
         }
 
         private bool save(Item item)

@@ -26,9 +26,9 @@ namespace StockManagementSystemSpyCoder
         private void StockInSaveButton_Click(object sender, EventArgs e)
         {
             // stocksIn.Name = itemNameTextBox.Text;
-            stocksIn.ItemId = Convert.ToInt32(itemComboBox.SelectedValue);
+            stocksIn.ItemId = Convert.ToInt32(itemStockInComboBox.SelectedValue);
             // stocksIn.CompanyId = Convert.ToInt32(companyComboBox.SelectedValue);
-            int companyId = Convert.ToInt32(companyComboBox.SelectedValue);
+            int companyId = Convert.ToInt32(companyStockInComboBox.SelectedValue);
             stocksIn.Quantity = Convert.ToInt32(stockInQuantityTextBox.Text);
 
             // string query = @"INSERT INTO Items (CompanyId, ) VALUES ( " + companyId + ")";

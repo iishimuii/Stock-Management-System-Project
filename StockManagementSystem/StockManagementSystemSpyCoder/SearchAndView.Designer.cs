@@ -28,18 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.searchAndViewDataGridView = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Company = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AvailableQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ReorderLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.companyComboBox = new System.Windows.Forms.ComboBox();
-            this.categoryComboBox = new System.Windows.Forms.ComboBox();
+            this.companyComboBoxSearch = new System.Windows.Forms.ComboBox();
+            this.categoryComboBoxSearch = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SearchAndViewButton = new System.Windows.Forms.Button();
+            this.stockManagementSystemDataSet4 = new StockManagementSystemSpyCoder.StockManagementSystemDataSet4();
+            this.companiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.companiesTableAdapter = new StockManagementSystemSpyCoder.StockManagementSystemDataSet4TableAdapters.CompaniesTableAdapter();
+            this.stockManagementSystemDataSet5 = new StockManagementSystemSpyCoder.StockManagementSystemDataSet5();
+            this.categoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.categoriesTableAdapter = new StockManagementSystemSpyCoder.StockManagementSystemDataSet5TableAdapters.CategoriesTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.searchAndViewDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companiesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // searchAndViewDataGridView
@@ -87,21 +98,27 @@
             this.ReorderLevel.HeaderText = "Reorder Level";
             this.ReorderLevel.Name = "ReorderLevel";
             // 
-            // companyComboBox
+            // companyComboBoxSearch
             // 
-            this.companyComboBox.FormattingEnabled = true;
-            this.companyComboBox.Location = new System.Drawing.Point(263, 70);
-            this.companyComboBox.Name = "companyComboBox";
-            this.companyComboBox.Size = new System.Drawing.Size(186, 21);
-            this.companyComboBox.TabIndex = 61;
+            this.companyComboBoxSearch.DataSource = this.companiesBindingSource;
+            this.companyComboBoxSearch.DisplayMember = "Name";
+            this.companyComboBoxSearch.FormattingEnabled = true;
+            this.companyComboBoxSearch.Location = new System.Drawing.Point(263, 70);
+            this.companyComboBoxSearch.Name = "companyComboBoxSearch";
+            this.companyComboBoxSearch.Size = new System.Drawing.Size(186, 21);
+            this.companyComboBoxSearch.TabIndex = 61;
+            this.companyComboBoxSearch.ValueMember = "Id";
             // 
-            // categoryComboBox
+            // categoryComboBoxSearch
             // 
-            this.categoryComboBox.FormattingEnabled = true;
-            this.categoryComboBox.Location = new System.Drawing.Point(263, 114);
-            this.categoryComboBox.Name = "categoryComboBox";
-            this.categoryComboBox.Size = new System.Drawing.Size(186, 21);
-            this.categoryComboBox.TabIndex = 60;
+            this.categoryComboBoxSearch.DataSource = this.categoriesBindingSource;
+            this.categoryComboBoxSearch.DisplayMember = "Name";
+            this.categoryComboBoxSearch.FormattingEnabled = true;
+            this.categoryComboBoxSearch.Location = new System.Drawing.Point(263, 114);
+            this.categoryComboBoxSearch.Name = "categoryComboBoxSearch";
+            this.categoryComboBoxSearch.Size = new System.Drawing.Size(186, 21);
+            this.categoryComboBoxSearch.TabIndex = 60;
+            this.categoryComboBoxSearch.ValueMember = "Id";
             // 
             // label4
             // 
@@ -134,20 +151,53 @@
             this.SearchAndViewButton.TabIndex = 56;
             this.SearchAndViewButton.Text = "Search";
             this.SearchAndViewButton.UseVisualStyleBackColor = false;
+            this.SearchAndViewButton.Click += new System.EventHandler(this.SearchAndViewButton_Click);
+            // 
+            // stockManagementSystemDataSet4
+            // 
+            this.stockManagementSystemDataSet4.DataSetName = "StockManagementSystemDataSet4";
+            this.stockManagementSystemDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // companiesBindingSource
+            // 
+            this.companiesBindingSource.DataMember = "Companies";
+            this.companiesBindingSource.DataSource = this.stockManagementSystemDataSet4;
+            // 
+            // companiesTableAdapter
+            // 
+            this.companiesTableAdapter.ClearBeforeFill = true;
+            // 
+            // stockManagementSystemDataSet5
+            // 
+            this.stockManagementSystemDataSet5.DataSetName = "StockManagementSystemDataSet5";
+            this.stockManagementSystemDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // categoriesBindingSource
+            // 
+            this.categoriesBindingSource.DataMember = "Categories";
+            this.categoriesBindingSource.DataSource = this.stockManagementSystemDataSet5;
+            // 
+            // categoriesTableAdapter
+            // 
+            this.categoriesTableAdapter.ClearBeforeFill = true;
             // 
             // SearchAndView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.searchAndViewDataGridView);
-            this.Controls.Add(this.companyComboBox);
-            this.Controls.Add(this.categoryComboBox);
+            this.Controls.Add(this.companyComboBoxSearch);
+            this.Controls.Add(this.categoryComboBoxSearch);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.SearchAndViewButton);
             this.Name = "SearchAndView";
             this.Size = new System.Drawing.Size(644, 442);
             ((System.ComponentModel.ISupportInitialize)(this.searchAndViewDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companiesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockManagementSystemDataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,8 +206,8 @@
         #endregion
 
         private System.Windows.Forms.DataGridView searchAndViewDataGridView;
-        private System.Windows.Forms.ComboBox companyComboBox;
-        private System.Windows.Forms.ComboBox categoryComboBox;
+        private System.Windows.Forms.ComboBox companyComboBoxSearch;
+        private System.Windows.Forms.ComboBox categoryComboBoxSearch;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button SearchAndViewButton;
@@ -166,5 +216,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn AvailableQuantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn ReorderLevel;
+        private System.Windows.Forms.BindingSource companiesBindingSource;
+        private StockManagementSystemDataSet4 stockManagementSystemDataSet4;
+        private System.Windows.Forms.BindingSource categoriesBindingSource;
+        private StockManagementSystemDataSet5 stockManagementSystemDataSet5;
+        private StockManagementSystemDataSet4TableAdapters.CompaniesTableAdapter companiesTableAdapter;
+        private StockManagementSystemDataSet5TableAdapters.CategoriesTableAdapter categoriesTableAdapter;
     }
 }

@@ -36,10 +36,10 @@
             this.itemNameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.categoryComboBox = new System.Windows.Forms.ComboBox();
+            this.categoryItemComboBox = new System.Windows.Forms.ComboBox();
             this.categoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.stockManagementSystemDataSet = new StockManagementSystemSpyCoder.StockManagementSystemDataSet();
-            this.companyComboBox = new System.Windows.Forms.ComboBox();
+            this.companyItemComboBox = new System.Windows.Forms.ComboBox();
             this.companiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.stockManagementSystemDataSet1 = new StockManagementSystemSpyCoder.StockManagementSystemDataSet1();
             this.categoriesTableAdapter = new StockManagementSystemSpyCoder.StockManagementSystemDataSetTableAdapters.CategoriesTableAdapter();
@@ -117,16 +117,16 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Category";
             // 
-            // categoryComboBox
+            // categoryItemComboBox
             // 
-            this.categoryComboBox.DataSource = this.categoriesBindingSource;
-            this.categoryComboBox.DisplayMember = "Name";
-            this.categoryComboBox.FormattingEnabled = true;
-            this.categoryComboBox.Location = new System.Drawing.Point(294, 81);
-            this.categoryComboBox.Name = "categoryComboBox";
-            this.categoryComboBox.Size = new System.Drawing.Size(186, 21);
-            this.categoryComboBox.TabIndex = 13;
-            this.categoryComboBox.ValueMember = "Id";
+            this.categoryItemComboBox.DataSource = this.categoriesBindingSource;
+            this.categoryItemComboBox.DisplayMember = "Name";
+            this.categoryItemComboBox.FormattingEnabled = true;
+            this.categoryItemComboBox.Location = new System.Drawing.Point(294, 81);
+            this.categoryItemComboBox.Name = "categoryItemComboBox";
+            this.categoryItemComboBox.Size = new System.Drawing.Size(186, 21);
+            this.categoryItemComboBox.TabIndex = 13;
+            this.categoryItemComboBox.ValueMember = "Id";
             // 
             // categoriesBindingSource
             // 
@@ -138,16 +138,16 @@
             this.stockManagementSystemDataSet.DataSetName = "StockManagementSystemDataSet";
             this.stockManagementSystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // companyComboBox
+            // companyItemComboBox
             // 
-            this.companyComboBox.DataSource = this.companiesBindingSource;
-            this.companyComboBox.DisplayMember = "Name";
-            this.companyComboBox.FormattingEnabled = true;
-            this.companyComboBox.Location = new System.Drawing.Point(294, 125);
-            this.companyComboBox.Name = "companyComboBox";
-            this.companyComboBox.Size = new System.Drawing.Size(186, 21);
-            this.companyComboBox.TabIndex = 14;
-            this.companyComboBox.ValueMember = "Id";
+            this.companyItemComboBox.DataSource = this.companiesBindingSource;
+            this.companyItemComboBox.DisplayMember = "Name";
+            this.companyItemComboBox.FormattingEnabled = true;
+            this.companyItemComboBox.Location = new System.Drawing.Point(294, 125);
+            this.companyItemComboBox.Name = "companyItemComboBox";
+            this.companyItemComboBox.Size = new System.Drawing.Size(186, 21);
+            this.companyItemComboBox.TabIndex = 14;
+            this.companyItemComboBox.ValueMember = "Id";
             // 
             // companiesBindingSource
             // 
@@ -171,8 +171,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.companyComboBox);
-            this.Controls.Add(this.categoryComboBox);
+            this.Controls.Add(this.companyItemComboBox);
+            this.Controls.Add(this.categoryItemComboBox);
             this.Controls.Add(this.itemNameTextBox);
             this.Controls.Add(this.reorderLevelTextBox);
             this.Controls.Add(this.label4);
@@ -200,8 +200,8 @@
         private System.Windows.Forms.TextBox itemNameTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox categoryComboBox;
-        private System.Windows.Forms.ComboBox companyComboBox;
+        private System.Windows.Forms.ComboBox categoryItemComboBox;
+        private System.Windows.Forms.ComboBox companyItemComboBox;
         private System.Windows.Forms.BindingSource categoriesBindingSource;
         private StockManagementSystemDataSet stockManagementSystemDataSet;
         private StockManagementSystemDataSetTableAdapters.CategoriesTableAdapter categoriesTableAdapter;
