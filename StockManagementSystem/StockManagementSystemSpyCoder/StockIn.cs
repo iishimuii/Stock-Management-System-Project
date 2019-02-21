@@ -84,5 +84,7 @@ namespace StockManagementSystemSpyCoder
             return isSucces;
 
         }
+
+      
     }
 }
